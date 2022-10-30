@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('building war file'){
       steps{
-        sh '$PATH/mvn cleab install'
+        sh '$PATH/mvn clean install'
       }
     }
   }
